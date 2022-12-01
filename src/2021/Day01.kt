@@ -1,3 +1,7 @@
+package `2021`
+
+import readInput
+
 fun main() {
     fun CalcualteIncreaseDepth(depths: List<Int>): Int {
         var result = 0

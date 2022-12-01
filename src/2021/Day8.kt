@@ -1,3 +1,7 @@
+package `2021`
+
+import readInput
+
 private fun SolvePart2(intput: List<String>): Long = intput.sumOf { solve2(it) }
 private fun SolvePart1(intput: List<String>): Long = intput.sumOf { solve1(it) }
 
