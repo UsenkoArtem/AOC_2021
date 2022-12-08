@@ -74,7 +74,6 @@ fun main() {
         var secondPart = Long.MAX_VALUE
 
         calculateDirSize(curDir) {
-            //  println(it)
             if (it >= needToDelete)
                 secondPart = min(it, secondPart)
         }
